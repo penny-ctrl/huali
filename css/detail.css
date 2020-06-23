@@ -1,0 +1,207 @@
+body {
+  width: 1354x;
+  height: 1000px;
+}
+/* right start */
+.right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 36px;
+  height: 640px;
+  background-color: #595656;
+  padding-top: 90px;
+  z-index: 2;
+}
+.right li {
+  width: 36px;
+  margin-bottom: 18px;
+  font-size: 24px;
+  color: white;
+  margin-left: 6px;
+  margin-bottom: 24px;
+}
+.kefu {
+  width: 160px;
+  height: 38px;
+  font-size: 18px;
+  background-color: rgb(255, 102, 0);
+  position: fixed;
+  top: 574px;
+  left: 1100px;
+  z-index: 3;
+  color: white;
+}
+.nav {
+  width: 100%;
+  height: 40px;
+  font-size: 12px;
+  background-color: #f3f5f7;
+}
+.nav ul {
+  width: 380px;
+  height: 40px;
+  margin-left: 75px;
+  float: left;
+}
+.nav ul li {
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  margin-right: 34px;
+}
+.nav ul li i {
+  color: #ff734c;
+}
+.nav ul li a {
+  color: black;
+}
+.nav .ul2 {
+  margin-left: 230px;
+  width: 640px;
+}
+/* search */
+.search {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  padding: 14px 30px 0 70px;
+}
+.search .inp {
+  width: 400px;
+  height: 30px;
+  border: 2px solid orangered;
+  padding-left: 30px;
+  display: flex;
+  margin-top: 25px;
+  margin-left: 124px;
+  margin-right: 60px;
+}
+.search .inp i {
+  font-size: 30px;
+  color: gray;
+}
+.search .inp input {
+  width: 320px;
+  height: 30px;
+  font-size: 14px;
+  color: gray;
+  border: none;
+}
+.search .inp a {
+  width: 120px;
+  height: 30px;
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+.search p {
+  margin-left: 40px;
+  margin-top: 38px;
+}
+.search p i {
+  color: orangered;
+  font-size: 24px;
+}
+/* menu */
+.menu {
+  display: flex;
+  height: 40px;
+  background-color: #ff734c;
+  line-height: 40px;
+}
+.menu .lei {
+  width: 238px;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  /* margin-top: 12px; */
+  margin-left: 74px;
+  font-size: 18px;
+  color: white;
+  line-height: 54px;
+}
+
+.menu li {
+  float: left;
+  margin-left: 30px;
+
+  font-weight: 600;
+  font-size: 16px;
+}
+.menu li a {
+  color: white;
+}
+.navp {
+  width: 1212px;
+  height: 20px;
+  margin-left: 100px;
+}
+.navp a {
+  font-size: 16px;
+  color: black;
+}
+.box {
+  width: 1204px;
+  height: 800px;
+  border: 2px solid gray;
+  margin: 10px auto;
+}
+/* content */
+.box #image {
+  width: 434px;
+  height: 630px;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 98px;
+  float: left;
+}
+.box #image .big img {
+  width: 429px;
+  height: 469px;
+}
+.box #image .small p {
+  width: 80px;
+  height: 80px;
+  border: 1px solid orangered;
+  margin: 13px;
+  float: left;
+}
+.box #image .small p img {
+  width: 80px;
+  height: 80px;
+}
+.box .msg1 {
+  width: 568px;
+  height: 62px;
+  border-bottom: 2px solid gray;
+  margin-top: 30px;
+  float: left;
+  padding-top: 28px;
+}
+.box .msg2 {
+  width: 568px;
+  height: 345px;
+  border-bottom: 2px solid gray;
+  float: left;
+}
+.box .msg2 p {
+  font-size: 14px;
+}
+.box .msg3 {
+  width: 584px;
+  height: 175px;
+  float: left;
+}
+.box .msg3 .market {
+  width: 130px;
+  height: 20px;
+  border-bottom: 1px solid black;
+  line-height: 40px;
+  font-size: 14px;
+}
+.box span {
+  display: inline-block;
+}
