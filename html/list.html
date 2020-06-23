@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>列表页</title>
+    
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../font/iconfont.css" />
     <link rel="stylesheet" href="../css/list.css" />
@@ -11,8 +12,54 @@
   </head>
 
   <body>
+    <!-- .........................rigtht start .................................-->
+    <div class="right">
+      <ul>
+        <li class="iconfont icon-01"></li>
+        <li>
+          <i
+            class="iconfont icon-gouwuchekong"
+            style="font-size: 24px; color: white;"
+          ></i
+          ><span
+            style="
+              font-size: 14px;
+              width: 14px;
+              text-align: center;
+              display: block;
+              margin-left: 6px;
+            "
+            >购物车</span
+          >
+          <p id="number" style="font-size: 14px; margin-left: 6px;">0</p>
+        </li>
+        <li class="iconfont icon-xinheart118"></li>
+        <li class="iconfont icon-zhong"></li>
+        <li class="iconfont icon-telephone"></li>
+        <li class="iconfont icon-kefu"></li>
+        <li class="iconfont icon-ico"></li>
+        <li class="iconfont icon-biji"></li>
+        <li class="iconfont icon-jiantoushang"></li>
+      </ul>
+    </div>
+    <div class="kefu">
+      <i
+        style="
+          display: inline-block;
+          width: 60px;
+          font-size: 20px;
+          height: 40px;
+          text-align: center;
+          line-height: 40px;
+        "
+        class="iconfont icon-xiaoxi"
+      ></i
+      >咨询客服
+    </div>
+    <!-- ..............header....... -->
     <div id="header"></div>
     <script src="../js/header.js"></script>
+
     <!-- ..............menu start .........-->
     <div class="menu">
       <div class="lei">
@@ -34,9 +81,287 @@
       <img src="../img/listtitle.jpg" alt="" />
     </div>
     <!-- menu end -->
-
+    <div class="idx" style="margin-left: 70px;">
+      <a href="../index.html" style="color: black;"><span>首页 &gt;</span></a>
+      <span>品牌巧克力 &gt;</span>
+      <span>巧克力</span>
+    </div>
+    <ul class="tubiao" style="margin-left: 70px;">
+      <li>
+        <i class="iconfont icon-quanbu"></i>
+        <p>全部</p>
+      </li>
+      <li>
+        <i class="iconfont icon-yinlehe"></i>
+        <p>音乐盒</p>
+      </li>
+      <li>
+        <i class="iconfont icon-meiguihua"></i>
+        <p>金箔花</p>
+      </li>
+      <li>
+        <i class="iconfont icon-shengdanshuijingqiu"></i>
+        <p>3D水晶内雕</p>
+      </li>
+      <li>
+        <i class="iconfont icon-xianglian-"></i>
+        <p>首饰/美妆</p>
+      </li>
+      <li>
+        <i class="iconfont icon-dangao"></i>
+        <p>巧克力</p>
+      </li>
+      <li>
+        <i class="iconfont icon-cat"></i>
+        <p>公仔/睡枕</p>
+      </li>
+      <li>
+        <i class="iconfont icon-huaping"></i>
+        <p>摆件/其他</p>
+      </li>
+    </ul>
+    <!-- msg start -->
+    <div class="msg">
+      <p style="border-bottom: 1px solid white;">
+        <span>品牌：</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span>进口Felchlin巧克力</span>&nbsp;&nbsp;&nbsp;&nbsp;
+        <span>巧罗巧克力</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span>巧蔻巧克力</span>&nbsp;&nbsp;
+      </p>
+      <p>
+        <span>排序：</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span>综合</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span>销量</span>&nbsp;&nbsp;
+        <span>最新</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span>价格 <i class="iconfont icon-ai-arrow-down"></i> </span
+        >&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" placeholder="￥" /> --
+        <input type="text" placeholder="￥" />
+      </p>
+    </div>
+    <!-- msg end -->
+    <!-- .................list start....................-->
+    <ul id="shopdata">
+      <li>
+        <div id="shopimg">
+          <img
+            style="width: 290px; height: 300px;"
+            src="../img/shop1.jpg"
+            alt=""
+          />
+        </div>
+        <p id="name">
+          德国进口LAUENSTEIN巧克力手工松露酒味
+        </p>
+        <p id="price" style="color: coral; font-size: 14px;">￥318</p>
+      </li>
+      <li>
+        <div id="shopimg">
+          <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+        </div>
+        <p id="name">
+          德国进口LAUENSTEIN巧克力手工松露酒味
+        </p>
+        <p id="price" style="color: coral; font-size: 14px;">￥318</p>
+      </li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+      <li><div id="shopimg">
+        <img style="width: 290px; height: 300px;" src="../img/shop1.jpg" alt="" />
+      </div>
+      <p id="name">
+        德国进口LAUENSTEIN巧克力手工松露酒味
+      </p>
+      <p id="price" style="color: coral; font-size: 14px;">￥318</p></li>
+    </ul>
+    <!-- ..................list end............................. -->
+    <!-- ..................adress start..................-->
+    <p style="width: 1234px;height: 40px;line-height: 40px;background-color: #eee;margin: 4px auto;">巧克力礼品 & 送礼常识</p>
+    <div class="box1 adress" style="margin-left: 70px;">
+    
+      <ul>
+        <li>中国鲜花礼品网购物流程</li>
+        <li>中国鲜花礼品网订购演示</li>
+        <li>鲜花网能配送哪些城市？</li>
+        <li>鲜花售后服务是怎么样的？</li>
+        <li>我应该提前多久预订鲜花？</li>
+      </ul>
+    </div>
+    <div class="clearFixed">
+      <div class="box2 adress">
+        <ul>
+          <li>中国鲜花礼品网购物流程</li>
+          <li>中国鲜花礼品网订购演示</li>
+          <li>鲜花网能配送哪些城市？</li>
+          <li>鲜花售后服务是怎么样的？</li>
+          <li>我应该提前多久预订鲜花？</li>
+        </ul>
+      </div>
+      <div class="box3 adress">
+        <ul>
+          <li>中国鲜花礼品网购物流程</li>
+          <li>中国鲜花礼品网订购演示</li>
+          <li>鲜花网能配送哪些城市？</li>
+          <li>鲜花售后服务是怎么样的？</li>
+          <li>我应该提前多久预订鲜花？</li>
+        </ul>
+      </div>
+      <div class="box4 adress">
+        <ul>
+          <li>中国鲜花礼品网购物流程</li>
+          <li>中国鲜花礼品网订购演示</li>
+          <li>鲜花网能配送哪些城市？</li>
+          <li>鲜花售后服务是怎么样的？</li>
+          <li>我应该提前多久预订鲜花？</li>
+        </ul>
+      </div>
     <!-- footer -->
-    <!-- <div class="footer">
+    <br>
+    <div class="footer">
       <ul>
         <li>首页</li>
         <li>关于我们</li>
@@ -75,6 +400,6 @@
           </p>
         </div>
       </div>
-    </div> -->
+    </div>
   </body>
 </html>
