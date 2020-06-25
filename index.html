@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="font/iconfont.css" />
     <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="./css/index-move.css">
     <script src="js/jquery-1.11.0.js"></script>
   </head>
-  <body>
+  <body>  
     <!-- .........................rigtht start .................................-->
     <div class="right">
-      <ul>
+      <ul class="you">
         <li class="iconfont icon-01"></li> 
         <li>
           <i
@@ -30,14 +31,29 @@
             "
             >购物车</span
           >
-          <p id="number" style="font-size: 14px; margin-left: 6px;">0</p>
+          <span id="number" style="font-size: 14px; margin-left: 6px;display: block;">0</span>
         </li>
-        <li class="iconfont icon-xinheart118"></li>
-        <li class="iconfont icon-zhong"></li>
-        <li class="iconfont icon-telephone"></li>
-        <li class="iconfont icon-kefu"></li>
-        <li class="iconfont icon-ico"></li>
-        <li class="iconfont icon-biji"></li>
+        <li class="iconfont icon-xinheart118">
+          <p style="top: 280px;">我的收藏</p>
+        </li>
+        <li class="iconfont icon-zhong">
+          <p style="top: 330px;">最近查看</p>
+        </li>
+        <li class="iconfont icon-telephone">
+          <p style="top: 385px;">400-889-8188</p>
+        </li>
+        <li class="iconfont icon-kefu">
+          <p style="top: 435px;">在线客服</p>
+        </li>
+        <li class="iconfont icon-ico">
+          <p style="width: 240px;height: 120px;top: 400px;left: -260px;">
+            <img src="img/scan2.png" alt="">
+            <img src="img/scan1.png" alt="">
+          </p>
+        </li>
+        <li class="iconfont icon-biji">
+          <p style="top: 536px;">功能反馈</p>
+        </li>
         <li class="iconfont icon-jiantoushang"></li>
       </ul>
     </div>
@@ -65,7 +81,7 @@
           style="height: 80px; margin-left: -300px;"
         />
         <div class="nav">
-          <ul>
+          <ul class="ul1">
             
               <a href="#"
                 ><li><i class="iconfont icon-iconfontxingxing"></i
@@ -109,15 +125,15 @@
           &nbsp;&nbsp;<i class="iconfont icon-list"></i>所有分类
         </div>
         <ul>
-          <li><a href="html/detail.html">鲜花</a></li>
-          <li><a href="html/detail.html">永生花</a></li>
-          <li><a href="html/detail.html">蛋糕</a></li>
-          <li><a href="html/detail.html">礼品</a></li>
-          <li><a href="html/detail.html">巧克力</a></li>
-          <li><a href="html/detail.html">花语大全</a></li>
-          <li><a href="html/detail.html">企业团购</a></li>
-          <li><a href="html/detail.html">设计师臻选鲜花</a></li>
-          <li><a href="html/detail.html">父亲节鲜花礼物</a></li>
+          <a href="html/detail.html"><li>鲜花</li></a>
+          <a href="html/detail.html"><li>永生花</li></a>
+          <a href="html/detail.html"><li>蛋糕</li></a>
+          <a href="html/detail.html"><li>礼品</li></a>
+          <a href="html/detail.html"><li>巧克力</li></a>
+          <a href="html/detail.html"><li>花语大全</li></a>
+          <a href="html/detail.html"><li>企业团购</li></a>
+          <a href="html/detail.html"><li>设计师臻选鲜花</li></a>
+          <a href="html/detail.html"><li>父亲节鲜花礼物</li></a>
         </ul>
       </div>
     </div>
@@ -178,7 +194,7 @@
         <li>窝夫小子</li>
         <li>BONCAKE</li>
       </ul>
-      <p style="font-size: 20px; font-weight: 700;">礼品/公仔/绿植</p>
+      <p class="present" style="font-size: 20px; font-weight: 700; height: 100px;line-height: 100px;">礼品/公仔/绿植</p>
     </div>
     <!-- ...........................................Swiper JS -->
     <script src="js/swiper.min.js"></script>
@@ -202,25 +218,25 @@
     </script>
     <!-- banner end -->
     <ul id="warn">
-      <li>
+      
         <a href="#"
-          ><i class="iconfont icon-jiangbei"></i>鲜花电商认证龙头企业</a
+          ><li><i class="iconfont icon-jiangbei"></i>鲜花电商认证龙头企业</li></a
         >
-      </li>
-      <li>
-        <a href="#"><i class="iconfont icon-tube"></i>15年品牌</a>
-      </li>
-      <li>
-        <a href="#"><i class="iconfont icon-zhong"></i>3小时全国送花</a>
-      </li>
-      <li>
-        <a href="#"><i class="iconfont icon-renminbi"></i>200%退赔承诺</a>
-      </li>
-      <li>
+      
+      
+        <a href="#"><li><i class="iconfont icon-tube"></i>15年品牌</li></a>
+      
+      
+        <a href="#"><li><i class="iconfont icon-zhong"></i>3小时全国送花</li></a>
+      
+      
+        <a href="#"><li><i class="iconfont icon-renminbi"></i>200%退赔承诺</li></a>
+      
+      
         <a href="#"
-          ><i class="iconfont icon-camera_icon"></i>最近372552条评价</a
+          ><li><i class="iconfont icon-camera_icon"></i>最近372552条评价</li></a
         >
-      </li>
+      
     </ul>
     <div id="tv">
       <img src="img/content.gif" alt="" style="width: 1200px;" />
@@ -301,7 +317,10 @@
       <div class="model"><img src="img/model.png" alt="" /></div>
       <ul id="cont">
         <li>
-          <img src="img/flower5.jpg" alt="" />
+          <div class="over">
+            <img src="img/flower5.jpg" alt="" />
+          </div>
+          
           <p id="cont1" style="font-size: 16px; font-weight: 600;">
             爱情|韩式系列/初心不负
           </p>
@@ -309,7 +328,9 @@
           <p id="cont3" style="color: gray;">已售 7.0 万件</p>
         </li>
         <li>
-          <img src="img/flower5.jpg" alt="" />
+          <div class="over">
+            <img src="img/flower5.jpg" alt="" />
+          </div>
           <p id="cont1" style="font-size: 16px; font-weight: 600;">
             爱情|韩式系列/初心不负
           </p>
@@ -317,7 +338,9 @@
           <p id="cont3" style="color: gray;">已售 7.0 万件</p>
         </li>
         <li>
-          <img src="img/flower5.jpg" alt="" />
+          <div class="over">
+            <img src="img/flower5.jpg" alt="" />
+          </div>
           <p id="cont1" style="font-size: 16px; font-weight: 600;">
             爱情|韩式系列/初心不负
           </p>
@@ -325,7 +348,9 @@
           <p id="cont3" style="color: gray;">已售 7.0 万件</p>
         </li>
         <li>
-          <img src="img/flower5.jpg" alt="" />
+          <div class="over">
+            <img src="img/flower5.jpg" alt="" />
+          </div>
           <p id="cont1" style="font-size: 16px; font-weight: 600;">
             爱情|韩式系列/初心不负
           </p>
@@ -333,7 +358,9 @@
           <p id="cont3" style="color: gray;">已售 7.0 万件</p>
         </li>
         <li>
-          <img src="img/flower5.jpg" alt="" />
+          <div class="over">
+            <img src="img/flower5.jpg" alt="" />
+          </div>
           <p id="cont1" style="font-size: 16px; font-weight: 600;">
             爱情|韩式系列/初心不负
           </p>
@@ -341,7 +368,9 @@
           <p id="cont3" style="color: gray;">已售 7.0 万件</p>
         </li>
         <li>
-          <img src="img/flower5.jpg" alt="" />
+          <div class="over">
+            <img src="img/flower5.jpg" alt="" />
+          </div>
           <p id="cont1" style="font-size: 16px; font-weight: 600;">
             爱情|韩式系列/初心不负
           </p>
@@ -349,7 +378,9 @@
           <p id="cont3" style="color: gray;">已售 7.0 万件</p>
         </li>
         <li>
-          <img src="img/flower5.jpg" alt="" />
+          <div class="over">
+            <img src="img/flower5.jpg" alt="" />
+          </div>
           <p id="cont1" style="font-size: 16px; font-weight: 600;">
             爱情|韩式系列/初心不负
           </p>
@@ -357,7 +388,9 @@
           <p id="cont3" style="color: gray;">已售 7.0 万件</p>
         </li>
         <li>
-          <img src="img/flower5.jpg" alt="" />
+          <div class="over">
+            <img src="img/flower5.jpg" alt="" />
+          </div>
           <p id="cont1" style="font-size: 16px; font-weight: 600;">
             爱情|韩式系列/初心不负
           </p>
@@ -637,5 +670,92 @@
 
     <div id="footer"></div>
     <script src="js/index.js"></script>
+    <!-- absolute -->
+    <!-- 客户服务 -->
+    <div class="kehufuwu">
+      <ul>
+        <li>在线付款</li>
+        <li>客服中心</li>
+        <li>配送范围</li>
+        <li>留言反馈</li>
+      </ul>
+    </div>
+    <!-- 微信 -->
+    <div class="weixin">
+      <img src="img/scan2.png" style="width: 124px;height: 124px;" alt="">
+    </div>
+    <!-- APP -->
+    <div class="app">
+      <img src="img/scan1.png" style="width: 124px;height: 124px;" alt="">
+    </div>
+    <!-- 列表导航 -->
+    <div class="navlist" >
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="navlist">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </div>
+    <div class="navlist" >
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </div>
+    <!-- right右侧导航栏 -->
+    <div class="user" style="text-align: center;">
+       <img src="img/user.jpg" alt="" style="margin: 10px auto;" >
+    
+      <p>你好！请<a href="html/login.html">登录 </a>/ <a href="./html/resign.html">注册</a></p>
+    </div>
+    <!-- 收藏 -->
+    <div class="heart">我的收藏</div>
   </body>
 </html>

@@ -21,6 +21,26 @@ body {
   margin-left: 6px;
   margin-bottom: 24px;
 }
+.right .you li p {
+  width: 120px;
+  height: 38px;
+  line-height: 38px;
+  position: absolute;
+  left: -140px;
+  background-color: white;
+  border: 1px solid #eee;
+  z-index: 3;
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+  border-radius: 6px;
+  display: none;
+}
+.right .you li p img {
+  width: 120px;
+  height: 120px;
+  float: left;
+}
 .kefu {
   width: 160px;
   height: 38px;
@@ -144,7 +164,7 @@ body {
   font-weight: 800;
   font-size: 20px;
 }
-.top .menu li a {
+.top .menu a {
   color: black;
 }
 /* banner start */
@@ -212,7 +232,7 @@ body {
   margin: 20px;
   font-size: 18px;
 }
-#warn li a {
+#warn a {
   color: #000;
 }
 #warn li i {
@@ -331,6 +351,11 @@ body {
   float: left;
   margin-left: 10px;
   margin-top: 8px;
+  overflow: hidden;
+}
+.content #cont li .over {
+  width: 214px;
+  height: 240px;
   overflow: hidden;
 }
 .content #cont li img {

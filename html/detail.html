@@ -11,8 +11,19 @@
   </head>
   <body>
     <!-- .........................rigtht start .................................-->
+    <!-- right右侧导航栏 -->
+    <div class="user" style="text-align: center;">
+      <img src="../img/user.jpg" alt="" style="margin: 10px auto;" />
+
+      <p>
+        你好！请<a href="../html/login.html">登录 </a>/
+        <a href="./html/resign.html">注册</a>
+      </p>
+    </div>
+    <!-- .........user end.................... -->
+
     <div class="right">
-      <ul>
+      <ul class="you">
         <li class="iconfont icon-01"></li>
         <li>
           <i
@@ -29,14 +40,33 @@
             "
             >购物车</span
           >
-          <p id="number" style="font-size: 14px; margin-left: 6px;">0</p>
+          <span
+            id="number"
+            style="font-size: 14px; margin-left: 6px; display: block;"
+            >0</span
+          >
         </li>
-        <li class="iconfont icon-xinheart118"></li>
-        <li class="iconfont icon-zhong"></li>
-        <li class="iconfont icon-telephone"></li>
-        <li class="iconfont icon-kefu"></li>
-        <li class="iconfont icon-ico"></li>
-        <li class="iconfont icon-biji"></li>
+        <li class="iconfont icon-xinheart118">
+          <p style="top: 280px;">我的收藏</p>
+        </li>
+        <li class="iconfont icon-zhong">
+          <p style="top: 330px;">最近查看</p>
+        </li>
+        <li class="iconfont icon-telephone">
+          <p style="top: 385px;">400-889-8188</p>
+        </li>
+        <li class="iconfont icon-kefu">
+          <p style="top: 435px;">在线客服</p>
+        </li>
+        <li class="iconfont icon-ico">
+          <p style="width: 240px; height: 120px; top: 400px; left: -260px;">
+            <img src="../img/scan2.png" alt="" />
+            <img src="../img/scan1.png" alt="" />
+          </p>
+        </li>
+        <li class="iconfont icon-biji">
+          <p style="top: 536px;">功能反馈</p>
+        </li>
         <li class="iconfont icon-jiantoushang"></li>
       </ul>
     </div>
@@ -56,7 +86,7 @@
     </div>
     <!-- ................nav start .................-->
     <div class="nav">
-      <ul>
+      <ul class="ul1">
         <li>
           <a href="#"
             ><i class="iconfont icon-iconfontxingxing"></i
@@ -100,15 +130,15 @@
         全部商品导购 &nbsp;&nbsp;<i class="iconfont icon-list"></i>
       </div>
       <ul>
-        <li><a href="#">鲜花</a></li>
-        <li><a href="#">永生花</a></li>
-        <li><a href="#">蛋糕</a></li>
-        <li><a href="#">礼品</a></li>
-        <li><a href="#">巧克力</a></li>
-        <li><a href="#">花语大全</a></li>
-        <li><a href="#">企业团购</a></li>
-        <li><a href="#">设计师臻选鲜花</a></li>
-        <li><a href="#">父亲节鲜花礼物</a></li>
+        <li><a href="../html/list.html">鲜花</a></li>
+        <li><a href="../html/list.html">永生花</a></li>
+        <li><a href="../html/list.html">蛋糕</a></li>
+        <li><a href="../html/list.html">礼品</a></li>
+        <li><a href="../html/list.html">巧克力</a></li>
+        <li><a href="../html/list.html">花语大全</a></li>
+        <li><a href="../html/list.html">企业团购</a></li>
+        <li><a href="../html/list.html">设计师臻选鲜花</a></li>
+        <li><a href="../html/list.html">父亲节鲜花礼物</a></li>
       </ul>
     </div>
     <!-- menu end -->
@@ -122,6 +152,9 @@
       <div id="image">
         <div class="big">
           <img src="../img/detail1.jpg" alt="" />
+          <img src="../img/detail2.jpg" alt="" />
+          <img src="../img/detail3.jpg" alt="" />
+          <img src="../img/detail4.jpg" alt="" />
         </div>
         <div class="small">
           <p>
@@ -183,33 +216,60 @@
             ><i class="iconfont icon-ico"></i>去微信购买</span
           >
         </p>
-        <span
-          style="
-            width: 140px;
-            height: 42px;
-            border: 1px solid orangered;
-            text-align: center;
-            line-height: 42px;
-          "
-          >加入购物车</span
-        >&nbsp;&nbsp;&nbsp;&nbsp;
-        <span
-          style="
-            width: 124px;
-            height: 42px;
-            background-color: orangered;
-            text-align: center;
-            line-height: 42px;
-          "
-          >立即购买</span
-        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <span
-          ><i style="color: peru;" class="iconfont icon-xinheart118"></i
-          >收藏</span
-        >
+        <a href="cart.html" style="color: orangered;">
+          <span
+            style="
+              width: 140px;
+              height: 42px;
+              border: 1px solid orangered;
+              text-align: center;
+              line-height: 42px;
+            "
+            >加入购物车</span
+          >
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="cart.html" style="color: white;">
+          <span
+            style="
+              width: 124px;
+              height: 42px;
+              background-color: orangered;
+              text-align: center;
+              line-height: 42px;
+            "
+            >立即购买</span
+          >
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" style="font-size: 12px; color: black;">
+          <span
+            ><i style="color: peru;" class="iconfont icon-xinheart118"></i
+            >收藏</span
+          >
+        </a>
       </div>
     </div>
+    <!-- absolute -->
+    <!-- 客户服务 -->
+    <div class="kehufuwu">
+      <ul>
+        <li>在线付款</li>
+        <li>客服中心</li>
+        <li>配送范围</li>
+        <li>留言反馈</li>
+      </ul>
+    </div>
+
     <div id="footer"></div>
     <script src="../js/detail.js"></script>
+    <!-- 微信 -->
+    <div class="weixin">
+      <img src="../img/scan2.png" style="width: 124px; height: 124px;" alt="" />
+    </div>
+    <!-- APP -->
+    <div class="app">
+      <img src="../img/scan1.png" style="width: 124px; height: 124px;" alt="" />
+    </div>
   </body>
 </html>

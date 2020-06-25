@@ -73,3 +73,6 @@ strong {
 .fr {
   float: right;
 }
+body {
+  width: 1347px;
+}

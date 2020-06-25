@@ -8,58 +8,124 @@
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../font/iconfont.css" />
     <link rel="stylesheet" href="../css/list.css" />
+  
     <script src="../js/jquery-1.11.0.js"></script>
   </head>
 
   <body>
-    <!-- .........................rigtht start .................................-->
-    <div class="right">
+    <!-- 客户服务 -->
+    <div class="kehufuwu">
       <ul>
-        <li class="iconfont icon-01"></li>
-        <li>
-          <i
-            class="iconfont icon-gouwuchekong"
-            style="font-size: 24px; color: white;"
-          ></i
-          ><span
-            style="
-              font-size: 14px;
-              width: 14px;
-              text-align: center;
-              display: block;
-              margin-left: 6px;
-            "
-            >购物车</span
-          >
-          <p id="number" style="font-size: 14px; margin-left: 6px;">0</p>
-        </li>
-        <li class="iconfont icon-xinheart118"></li>
-        <li class="iconfont icon-zhong"></li>
-        <li class="iconfont icon-telephone"></li>
-        <li class="iconfont icon-kefu"></li>
-        <li class="iconfont icon-ico"></li>
-        <li class="iconfont icon-biji"></li>
-        <li class="iconfont icon-jiantoushang"></li>
+        <li>在线付款</li>
+        <li>客服中心</li>
+        <li>配送范围</li>
+        <li>留言反馈</li>
       </ul>
     </div>
-    <div class="kefu">
-      <i
-        style="
-          display: inline-block;
-          width: 60px;
-          font-size: 20px;
-          height: 40px;
-          text-align: center;
-          line-height: 40px;
-        "
-        class="iconfont icon-xiaoxi"
-      ></i
-      >咨询客服
+    <!-- 微信 -->
+    <div class="weixin">
+      <img src="../img/scan2.png" style="width: 124px; height: 124px;" alt="" />
     </div>
+    <!-- APP -->
+    <div class="app">
+      <img src="../img/scan1.png" style="width: 124px; height: 124px;" alt="" />
+    </div>
+    <!-- .........................rigtht start .................................-->
+  <!-- right右侧导航栏 -->
+  <div class="user" style="text-align: center;">
+    <img src="../img/user.jpg" alt="" style="margin: 10px auto;" />
+  
+    <p>
+      你好！请<a href="../html/login.html">登录 </a>/
+      <a href="./html/resign.html">注册</a>
+    </p>
+  </div>
+  <!-- .........user end.................... -->
+  
+  <div class="right">
+    <ul class="you">
+      <li class="iconfont icon-01"></li>
+      <li>
+        <i class="iconfont icon-gouwuchekong" style="font-size: 24px; color: white;"></i><span style="
+                font-size: 14px;
+                width: 14px;
+                text-align: center;
+                display: block;
+                margin-left: 6px;
+              ">购物车</span>
+        <span id="number" style="font-size: 14px; margin-left: 6px; display: block;">0</span>
+      </li>
+      <li class="iconfont icon-xinheart118">
+        <p style="top: 280px;">我的收藏</p>
+      </li>
+      <li class="iconfont icon-zhong">
+        <p style="top: 330px;">最近查看</p>
+      </li>
+      <li class="iconfont icon-telephone">
+        <p style="top: 385px;">400-889-8188</p>
+      </li>
+      <li class="iconfont icon-kefu">
+        <p style="top: 435px;">在线客服</p>
+      </li>
+      <li class="iconfont icon-ico">
+        <p style="width: 240px; height: 120px; top: 400px; left: -260px;">
+          <img src="../img/scan2.png" alt="" />
+          <img src="../img/scan1.png" alt="" />
+        </p>
+      </li>
+      <li class="iconfont icon-biji">
+        <p style="top: 536px;">功能反馈</p>
+      </li>
+      <li class="iconfont icon-jiantoushang"></li>
+    </ul>
+  </div>
+  <div class="kefu">
+    <i style="
+            display: inline-block;
+            width: 60px;
+            font-size: 20px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+          " class="iconfont icon-xiaoxi"></i>咨询客服
+  </div>
     <!-- ..............header....... -->
-    <div id="header"></div>
-    <script src="../js/header.js"></script>
-
+    <!-- ................nav start .................-->
+    <div class="nav">
+      <ul class="ul1">
+        <li>
+          <a href="#"><i class="iconfont icon-iconfontxingxing"></i>收藏鲜花网(hua.com)</a>
+        </li>
+        <li>
+          <a href="#"><i class="iconfont icon-weixin"></i>关注微信</a>
+        </li>
+        <li>
+          <a href="#"><i class="iconfont icon-hua"></i>花礼网APP</a>
+        </li>
+      </ul>
+      <ul class="ul2">
+        <li><a href="login.html">你好，请登录</a></li>
+        <li><a href="resign.html">注册</a></li>
+        <li><a href="#">订单查询</a></li>
+        <li><a href="#">客户服务</a></li>
+        <li><a href="cart.html">购物车</a></li>
+        <li>鲜花-星河璀璨</li>
+      </ul>
+    </div>
+    <!-- ....................search start .............-->
+    <div class="search">
+      <img src="../img/hualicom.png" alt="" />
+      <div class="inp">
+        <i class="iconfont icon-fangdajing_huaban1"></i>
+        <input type="text" placeholder="商品搜索" />
+        <a href="list.html" style="display: block;">搜索</a>
+      </div>
+      <p><i class="iconfont icon-telephone"></i>400-889-8188</p>
+      <p>
+        <i class="iconfont icon-kefu"></i><a href="#" style="color: black;">联系客服</a>
+      </p>
+    </div>
+    <!-- search end -->
     <!-- ..............menu start .........-->
     <div class="menu">
       <div class="lei">
@@ -401,5 +467,7 @@
         </div>
       </div>
     </div>
+    <script src="../js/list.js"></script>
+   
   </body>
 </html>

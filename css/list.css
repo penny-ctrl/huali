@@ -1,10 +1,49 @@
+body {
+  width: 1354x;
+  height: 1000px;
+}
+/* 客户服务 */
+.kehufuwu {
+  position: absolute;
+  display: none;
+  top: 30px;
+  left: 910px;
+  width: 90px;
+  height: 100px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  border: 1px solid #eee;
+  background-color: white;
+  z-index: 4;
+}
+/* 微信 */
+.weixin {
+  position: absolute;
+  top: 30px;
+  display: none;
+  left: 220px;
+  width: 140px;
+  height: 140px;
+  z-index: 4;
+}
+/* APP */
+.app {
+  position: absolute;
+  top: 30px;
+  display: none;
+  left: 330px;
+  width: 140px;
+  height: 140px;
+  z-index: 4;
+}
 /* right start */
 .right {
   position: fixed;
   top: 0;
   right: 0;
   width: 36px;
-  height: 640px;
+  height: 620px;
   background-color: #595656;
   padding-top: 118px;
   z-index: 2;
@@ -15,7 +54,27 @@
   font-size: 24px;
   color: white;
   margin-left: 6px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
+}
+.right .you li p {
+  width: 120px;
+  height: 38px;
+  line-height: 38px;
+  position: absolute;
+  left: -140px;
+  background-color: white;
+  border: 1px solid #eee;
+  z-index: 3;
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+  border-radius: 6px;
+  display: none;
+}
+.right .you li p img {
+  width: 120px;
+  height: 120px;
+  float: left;
 }
 .kefu {
   width: 160px;
@@ -23,12 +82,98 @@
   font-size: 18px;
   background-color: rgb(255, 102, 0);
   position: fixed;
-  top: 590px;
+  top: 574px;
   left: 1100px;
   z-index: 3;
   color: white;
 }
+.user {
+  width: 287px;
+  height: 197px;
+  background-color: white;
+  border: 2px solid #eee;
+  position: fixed;
+  font-size: 14px;
+  z-index: 3;
+  top: 110px;
+  left: 1020px;
+  display: none;
+}
 /* right end */
+/* nav */
+.nav {
+  width: 100%;
+  height: 40px;
+  font-size: 12px;
+  background-color: #f3f5f7;
+}
+.nav ul {
+  width: 380px;
+  height: 40px;
+  margin-left: 75px;
+  float: left;
+}
+.nav ul li {
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  margin-right: 34px;
+}
+.nav ul li i {
+  color: #ff734c;
+}
+.nav ul li a {
+  color: black;
+}
+.nav .ul2 {
+  margin-left: 230px;
+  width: 640px;
+}
+/* search */
+.search {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  padding: 14px 30px 0 70px;
+}
+.search .inp {
+  width: 400px;
+  height: 30px;
+  border: 2px solid orangered;
+  padding-left: 30px;
+  display: flex;
+  margin-top: 25px;
+  margin-left: 124px;
+  margin-right: 60px;
+}
+.search .inp i {
+  font-size: 30px;
+  color: gray;
+}
+.search .inp input {
+  width: 320px;
+  height: 30px;
+  font-size: 14px;
+  color: gray;
+  border: none;
+}
+.search .inp a {
+  width: 120px;
+  height: 30px;
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+.search p {
+  margin-left: 40px;
+  margin-top: 38px;
+}
+.search p i {
+  color: orangered;
+  font-size: 24px;
+}
 /* menu */
 .menu {
   display: flex;

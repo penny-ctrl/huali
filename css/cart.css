@@ -1,3 +1,109 @@
+/* 客户服务 */
+.kehufuwu {
+  position: absolute;
+  display: none;
+  top: 40px;
+  left: 910px;
+  width: 90px;
+  height: 100px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  border: 1px solid #eee;
+  background-color: white;
+}
+/* 微信 */
+.weixin {
+  position: absolute;
+  top: 40px;
+  display: none;
+  left: 220px;
+  width: 140px;
+  height: 140px;
+}
+/* APP */
+.app {
+  position: absolute;
+  top: 40px;
+  display: none;
+  left: 330px;
+  width: 140px;
+  height: 140px;
+}
+.nav {
+  width: 100%;
+  height: 40px;
+  font-size: 12px;
+  background-color: #f3f5f7;
+}
+.nav ul {
+  width: 380px;
+  height: 40px;
+  margin-left: 75px;
+  float: left;
+}
+.nav ul li {
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  margin-right: 34px;
+}
+.nav ul li i {
+  color: #ff734c;
+}
+.nav ul li a {
+  color: black;
+}
+.nav .ul2 {
+  margin-left: 230px;
+  width: 640px;
+}
+/* search */
+.search {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  padding: 14px 30px 0 70px;
+}
+.search .inp {
+  width: 400px;
+  height: 30px;
+  border: 2px solid orangered;
+  padding-left: 30px;
+  display: flex;
+  margin-top: 25px;
+  margin-left: 124px;
+  margin-right: 60px;
+}
+.search .inp i {
+  font-size: 30px;
+  color: gray;
+}
+.search .inp input {
+  width: 320px;
+  height: 30px;
+  font-size: 14px;
+  color: gray;
+  border: none;
+}
+.search .inp a {
+  width: 120px;
+  height: 30px;
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+.search p {
+  margin-left: 40px;
+  margin-top: 38px;
+}
+.search p i {
+  color: orangered;
+  font-size: 24px;
+}
+/* ---------- */
 .title {
   width: 990px;
   border: 1px solid grey;

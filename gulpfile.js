@@ -19,3 +19,11 @@ gulp.task("copyfont", (done) => {
   gulp.src("font/*").pipe(gulp.dest("dist/font"));
   done();
 });
+gulp.task("copyJs", (done) => {
+  gulp.src("js/*.js").pipe(gulp.dest("dist/js"));
+  done();
+});
+gulp.task("copyhtml", (done) => {
+  gulp.src("html/*.html").pipe(gulp.dest("dist/html"));
+  done();
+});
