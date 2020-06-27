@@ -148,10 +148,17 @@
   margin: 40px;
   background-color: white;
 }
-.title li #num {
+.title li .num {
   width: 40px;
   height: 24px;
   margin-top: 45px;
+}
+/* checkall */
+.checkall {
+  width: 950px;
+  height: 20px;
+  background-color: #eee;
+  margin: 10px auto;
 }
 /* total price */
 .total {

@@ -11,6 +11,10 @@ gulp.task("copyImg", (done) => {
   gulp.src("img/*.{jpg,png,gif}").pipe(gulp.dest("dist/img"));
   done();
 });
+gulp.task("copyimg", (done) => {
+  gulp.src("img2/*.{jpg,png,gif}").pipe(gulp.dest("dist/img2"));
+  done();
+});
 gulp.task("copyCss", (done) => {
   gulp.src("css/*.css").pipe(gulp.dest("dist/css"));
   done();
