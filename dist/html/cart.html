@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../font/iconfont.css" />
+    <link rel="stylesheet" href="../css/cart.css" />
+    <script src="../js/jquery-1.11.0.js"></script>
+  </head>
+  <body>
+    <!-- header start -->
+    <!-- ................nav start .................-->
+    <div class="nav">
+      <ul class="ul1">
+        <li>
+          <a href="#"
+            ><i class="iconfont icon-iconfontxingxing"></i
+            >收藏鲜花网(hua.com)</a
+          >
+        </li>
+        <li>
+          <a href="#"><i class="iconfont icon-weixin"></i>关注微信</a>
+        </li>
+        <li>
+          <a href="#"><i class="iconfont icon-hua"></i>花礼网APP</a>
+        </li>
+      </ul>
+      <ul class="ul2">
+        <li><a href="login.html">你好，请登录</a></li>
+        <li><a href="resign.html">注册</a></li>
+        <li><a href="#">订单查询</a></li>
+        <li><a href="#">客户服务</a></li>
+        <li><a href="cart.html">购物车</a></li>
+        <li>鲜花-星河璀璨</li>
+      </ul>
+    </div>
+    <!-- ....................search start .............-->
+    <div class="search">
+      <img src="../img/hualicom.png" alt="" />
+      <div class="inp">
+        <i class="iconfont icon-fangdajing_huaban1"></i>
+        <input type="text" placeholder="商品搜索" />
+        <a href="list.html" style="display: block;">搜索</a>
+      </div>
+      <p><i class="iconfont icon-telephone"></i>400-889-8188</p>
+      <p>
+        <i class="iconfont icon-kefu"></i
+        ><a href="#" style="color: black;">联系客服</a>
+      </p>
+    </div>
+    <!-- search end -->
+    <!-- header end -->
+    <!-- 客户服务 -->
+    <div class="kehufuwu">
+      <ul>
+        <li>在线付款</li>
+        <li>客服中心</li>
+        <li>配送范围</li>
+        <li>留言反馈</li>
+      </ul>
+    </div>
+    <!-- 微信 -->
+    <div class="weixin">
+      <img src="../img/scan2.png" style="width: 124px; height: 124px;" alt="" />
+    </div>
+    <!-- APP -->
+    <div class="app">
+      <img src="../img/scan1.png" style="width: 124px; height: 124px;" alt="" />
+    </div>
+    <!-- ul start -->
+    <ul class="title">
+      <p>
+        <span style="margin-right: 460px; margin-left: 40px;">商品名称</span>
+
+        <span>订购价</span>
+        <span>数量</span>
+        <span>操作</span>
+      </p>
+      <div class="cartlist">
+        <!-- <li>
+        <input class="checkbox" type="checkbox" />
+        <img src="../img/cart1.jpg" alt="" />
+        <span id="msg">[鲜花]一心一意一玫瑰11枝，粉色勿忘我0.3扎</span>
+        <p id="price">￥148</p>
+        <span>-</span><input type="text" id="num" /><span>+</span>
+        <span>删除</span>
+      </li>
+      <li>
+        <input class="checkbox" type="checkbox" />
+        <img src="../img/cart2.jpg" alt="" />
+        <span id="msg">[鲜花]一心一意一玫瑰11枝，粉色勿忘我0.3扎</span>
+        <p id="price">￥208</p>
+        <span>-</span><input type="text" id="num" /><span>+</span>
+        <span>删除</span>
+      </li>
+      <li>
+        <input class="checkbox" type="checkbox" />
+        <img src="../img/cart3.jpg" alt="" />
+        <span id="msg">[鲜花]一心一意一玫瑰11枝，粉色勿忘我0.3扎</span>
+        <p id="price">￥160</p>
+        <span>-</span><input type="text" id="num" /><span>+</span>
+        <span>删除</span>
+
+      </li> -->
+      </div>
+    </ul>
+    <!-- ul end -->
+    <!-- .................total price............... -->
+    <div class="checkall">
+      <input type="checkbox" name="" id="checkall" />&nbsp;全选
+    </div>
+    <div class="total">
+      <a
+        href="../html/list.html"
+        style="color: gray; font-size: 14px; width: 200px;"
+        ><i class="iconfont icon-jiantouarrowhead7"></i>继续挑选</a
+      >
+      <p id="totalprice" style="color: coral; margin-left: 600px;">￥0</p>
+      <a
+        href="#"
+        style="
+          width: 152px;
+          height: 52px;
+          background-color: orangered;
+          color: white;
+          font-size: 20px;
+          text-align: center;
+          margin-left: 100px;
+        "
+        >去结算</a
+      >
+    </div>
+    <!-- total price end -->
+    <ul id="warn1">
+      <li><i class="iconfont icon-hua"></i>15年品牌</li>
+      <li><i class="iconfont icon-zhong"></i>3小时配送</li>
+      <li><i class="iconfont icon-camera_icon"></i>订单实拍</li>
+      <li><i class="iconfont icon-renminbi"></i>200%退赔承诺</li>
+      <li><i class="iconfont icon-jiangbei"></i>销量领先</li>
+      <li><i class="iconfont icon-tube"></i>百万客户信赖</li>
+      <li><i class="iconfont icon-01"></i>低价保障</li>
+      <li><i class="iconfont icon-hua"></i>时尚原创花艺</li>
+    </ul>
+    <!-- footer start -->
+    <div class="footer">
+      <ul>
+        <li>首页</li>
+        <li>关于我们</li>
+        <li>媒体报道</li>
+        <li>联系方式</li>
+        <li>企业团购</li>
+        <li>花店入驻</li>
+        <li>友情链接</li>
+        <li>在线补款</li>
+        <li>为什么选择中国鲜花礼品网</li>
+      </ul>
+      <div class="p1">
+        <p>
+          中国花卉协会会员 中国电子商务协会会员 ICP经营许可证：粤B2-20050744
+          粤ICP备09171662号 粤公网安备44030502000373号 Copyright © 2005-2020
+        </p>
+      </div>
+      <div class="p2">
+        <p>
+          花礼网 （中国鲜花礼品网） www.hua.com 深圳市百易信息技术有限公司
+          中国鲜花网领先品牌，鲜花速递专家！
+        </p>
+        <div class="p3">
+          <p>
+            <img src="../img/bottom.png" alt="" />
+            <img src="../img/bottom2.png" alt="" />
+            <img src="../img/bottom3.png" alt="" />
+          </p>
+        </div>
+
+        <div class="p4">
+          <p>
+            友链 中华取名网 深圳房产网 卷皮网 腕表 苗木 佐卡伊珠宝网
+            钻石婚戒定制 中国青少年艺术教育网 淘狗网 礼无忧网 宠物狗 机友网
+            礼物网 新三板 商标注册 眼镜店
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="../js/cart.js"></script>
+  </body>
+</html>

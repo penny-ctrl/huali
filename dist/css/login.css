@@ -1,0 +1,204 @@
+/* 客户服务 */
+.kehufuwu {
+  position: absolute;
+  display: none;
+  top: 40px;
+  left: 910px;
+  width: 90px;
+  height: 100px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  border: 1px solid #eee;
+  background-color: white;
+}
+/* 微信 */
+.weixin {
+  position: absolute;
+  top: 40px;
+  display: none;
+  left: 220px;
+  width: 140px;
+  height: 140px;
+}
+/* APP */
+.app {
+  position: absolute;
+  top: 40px;
+  display: none;
+  left: 330px;
+  width: 140px;
+  height: 140px;
+}
+.nav {
+  width: 100%;
+  height: 40px;
+  font-size: 12px;
+  background-color: #f3f5f7;
+}
+.nav ul {
+  width: 380px;
+  height: 40px;
+  margin-left: 75px;
+  float: left;
+}
+.nav ul li {
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  margin-right: 34px;
+}
+.nav ul li i {
+  color: #ff734c;
+}
+.nav ul li a {
+  color: black;
+}
+.nav .ul2 {
+  margin-left: 230px;
+  width: 640px;
+}
+/* search */
+.search {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  padding: 14px 30px 0 70px;
+}
+.search .inp {
+  width: 400px;
+  height: 30px;
+  border: 2px solid orangered;
+  padding-left: 30px;
+  display: flex;
+  margin-top: 25px;
+  margin-left: 124px;
+  margin-right: 60px;
+}
+.search .inp i {
+  font-size: 30px;
+  color: gray;
+}
+.search .inp input {
+  width: 320px;
+  height: 30px;
+  font-size: 14px;
+  color: gray;
+  border: none;
+}
+.search .inp a {
+  width: 120px;
+  height: 30px;
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+.search p {
+  margin-left: 40px;
+  margin-top: 38px;
+}
+.search p i {
+  color: orangered;
+  font-size: 24px;
+}
+.back {
+  width: 100%;
+  height: 475px;
+  background: url(../img/back.png) no-repeat;
+  background-color: #fec3b3;
+  overflow: hidden;
+}
+.back .table {
+  width: 360px;
+  height: 436px;
+  border-radius: 10px;
+  background-color: white;
+  margin-left: 940px;
+  margin-top: 20px;
+}
+.back p span {
+  display: inline-block;
+}
+/* inp */
+.inp {
+  width: 280px;
+  height: 34px;
+  border: 1px solid #eee;
+  padding-left: 30px;
+  display: flex;
+  margin: 20px auto;
+}
+.inp i {
+  font-size: 20px;
+  color: gray;
+}
+.inp input {
+  width: 260px;
+  height: 30px;
+  font-size: 14px;
+  color: gray;
+  border: none;
+  margin-left: 20px;
+}
+.back .table .log {
+  width: 200px;
+  height: 36px;
+  background-color: orangered;
+  text-align: center;
+  line-height: 36px;
+  font-size: 20px;
+  margin: 30px auto;
+  border-radius: 15px;
+}
+.back .table .log p {
+  margin: 10px auto;
+  font-size: 12px;
+  color: gray;
+}
+/* footer */
+.footer {
+  width: 100%;
+  height: 210px;
+  background-color: white;
+  padding-top: 40px;
+}
+.footer li {
+  float: left;
+  margin-top: 4px;
+  margin-left: 50px;
+  color: gray;
+  border-right: 2px solid gray;
+  padding-right: 18px;
+  font-size: 16px;
+}
+.footer .p1 {
+  width: 1200px;
+  height: 40px;
+  font-size: 10px;
+  margin-top: 20px;
+  line-height: 40px;
+}
+.footer .p2 {
+  width: 1200px;
+  height: 40px;
+  font-size: 10px;
+}
+.footer .p3 {
+  width: 1200px;
+  height: 50px;
+}
+.footer .p3 img {
+  float: left;
+  margin-right: 16px;
+}
+.footer .p4 {
+  width: 1200px;
+  height: 40px;
+}
+.footer p {
+  margin-left: 70px;
+  margin-top: 6px;
+  color: gray;
+}

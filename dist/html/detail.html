@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=!, initial-scale=1.0" />
+    <title>详情页</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/detail.css" />
+    <link rel="stylesheet" href="../font/iconfont.css" />
+    <script src="../js/jquery-1.11.0.js"></script>
+  </head>
+  <body>
+    <!-- .........................rigtht start .................................-->
+    <!-- right右侧导航栏 -->
+    <div class="user" style="text-align: center;">
+      <img src="../img/user.jpg" alt="" style="margin: 10px auto;" />
+
+      <p>
+        你好！请<a href="../html/login.html">登录 </a>/
+        <a href="./html/resign.html">注册</a>
+      </p>
+    </div>
+    <!-- .........user end.................... -->
+
+    <div class="right">
+      <ul class="you">
+        <li class="iconfont icon-01"></li>
+        <li>
+          <i
+            class="iconfont icon-gouwuchekong"
+            style="font-size: 24px; color: white;"
+          ></i
+          ><span
+            style="
+              font-size: 14px;
+              width: 14px;
+              text-align: center;
+              display: block;
+              margin-left: 6px;
+            "
+            >购物车</span
+          >
+          <span
+            id="number"
+            style="font-size: 14px; margin-left: 6px; display: block;"
+            >0</span
+          >
+        </li>
+        <li class="iconfont icon-xinheart118">
+          <p style="top: 280px;">我的收藏</p>
+        </li>
+        <li class="iconfont icon-zhong">
+          <p style="top: 330px;">最近查看</p>
+        </li>
+        <li class="iconfont icon-telephone">
+          <p style="top: 385px;">400-889-8188</p>
+        </li>
+        <li class="iconfont icon-kefu">
+          <p style="top: 435px;">在线客服</p>
+        </li>
+        <li class="iconfont icon-ico">
+          <p style="width: 240px; height: 120px; top: 400px; left: -260px;">
+            <img src="../img/scan2.png" alt="" />
+            <img src="../img/scan1.png" alt="" />
+          </p>
+        </li>
+        <li class="iconfont icon-biji">
+          <p style="top: 536px;">功能反馈</p>
+        </li>
+        <li class="iconfont icon-jiantoushang"></li>
+      </ul>
+    </div>
+    <div class="kefu">
+      <i
+        style="
+          display: inline-block;
+          width: 60px;
+          font-size: 20px;
+          height: 40px;
+          text-align: center;
+          line-height: 40px;
+        "
+        class="iconfont icon-xiaoxi"
+      ></i
+      >咨询客服
+    </div>
+    <!-- ................nav start .................-->
+    <div class="nav">
+      <ul class="ul1">
+        <li>
+          <a href="#"
+            ><i class="iconfont icon-iconfontxingxing"></i
+            >收藏鲜花网(hua.com)</a
+          >
+        </li>
+        <li>
+          <a href="#"><i class="iconfont icon-weixin"></i>关注微信</a>
+        </li>
+        <li>
+          <a href="#"><i class="iconfont icon-hua"></i>花礼网APP</a>
+        </li>
+      </ul>
+      <ul class="ul2">
+        <li><a href="login.html">你好，请登录</a></li>
+        <li><a href="resign.html">注册</a></li>
+        <li><a href="#">订单查询</a></li>
+        <li><a href="#">客户服务</a></li>
+        <li><a href="cart.html">购物车</a></li>
+        <li>鲜花-星河璀璨</li>
+      </ul>
+    </div>
+    <!-- ....................search start .............-->
+    <div class="search">
+      <img src="../img/hualicom.png" alt="" />
+      <div class="inp">
+        <i class="iconfont icon-fangdajing_huaban1"></i>
+        <input type="text" placeholder="商品搜索" />
+        <a href="list.html" style="display: block;">搜索</a>
+      </div>
+      <p><i class="iconfont icon-telephone"></i>400-889-8188</p>
+      <p>
+        <i class="iconfont icon-kefu"></i
+        ><a href="#" style="color: black;">联系客服</a>
+      </p>
+    </div>
+    <!-- search end -->
+    <!-- ..............menu start .........-->
+    <div class="menu">
+      <div class="lei">
+        全部商品导购 &nbsp;&nbsp;<i class="iconfont icon-list"></i>
+      </div>
+      <ul>
+        <li><a href="../html/list.html">鲜花</a></li>
+        <li><a href="../html/list.html">永生花</a></li>
+        <li><a href="../html/list.html">蛋糕</a></li>
+        <li><a href="../html/list.html">礼品</a></li>
+        <li><a href="../html/list.html">巧克力</a></li>
+        <li><a href="../html/list.html">花语大全</a></li>
+        <li><a href="../html/list.html">企业团购</a></li>
+        <li><a href="../html/list.html">设计师臻选鲜花</a></li>
+        <li><a href="../html/list.html">父亲节鲜花礼物</a></li>
+      </ul>
+    </div>
+    <!-- menu end -->
+    <p class="navp">
+      <a href="../index.html">首页 &gt;</a>
+      <a href="https://www.hua.com/flower/">鲜花 &gt;</a>
+      <a href="#" style="color: orangered;">星河璀璨</a>
+    </p>
+    <!-- .............content start ------->
+    <div class="box">
+      <!-- <div id="image">
+        <div class="big">
+          <img src="../img/detail1.jpg" alt="" />
+          <img src="../img/detail2.jpg" alt="" />
+          <img src="../img/detail3.jpg" alt="" />
+          <img src="../img/detail4.jpg" alt="" />
+        </div>
+        <div class="small">
+          <p>
+            <img src="../img/detail1.jpg" alt="" />
+          </p>
+          <p><img src="../img/detail2.jpg" alt="" /></p>
+          <p><img src="../img/detail3.jpg" alt="" /></p>
+          <p><img src="../img/detail4.jpg" alt="" /></p>
+        </div>
+      </div>
+      <div class="msg1">
+        <p>星河璀璨--香槟玫瑰9枝、蓝绣球、向日葵、白色洋桔梗、大叶尤加利</p>
+        <p style="color: orangered;">父亲节倾情设计，8折特惠</p>
+        <p style="font-size: 10px;">已售 2690 件</p>
+      </div>
+      <div class="msg2">
+        <br />
+        <p>
+          类 别： 鲜花 编 号：9012440 <br />材 料：
+          香槟玫瑰9枝、蓝绣球1枝、向日葵3枝、白色洋桔梗5枝、大叶尤加利5枝！<br />
+          包 装：
+          蓝色人造纸5张、褐绿色OPP膜书法纸3张、香槟缎带1.5米、灰蓝色罗纹烫金丝带1.5米
+          <br />
+          花 语： 你如璀璨的星河，于苍穹之中，焕发光芒，闪耀着我的人生。
+          <br />附 送： 下单填写留言，即免费赠送精美贺卡！<br />
+          配 送：
+          限送100多个主要城市的市区及近郊：北京,上海,深圳,广州,成都,武汉,南京,杭州,苏州,天津,西安,长沙,东莞,厦门,佛山,沈阳,合肥,重庆,大连,郑州,青岛,太原,无锡,石家庄,济南,宁波,哈尔滨,乌鲁木齐,贵阳,昆明,福州,长春,南昌,兰州,珠海,南宁,中山,常州,金华,邯郸,泉州,海口,嘉兴,南通,呼和浩特,廊坊,唐山,温州,徐州,绵阳,烟台,襄阳,保定,潍坊,镇江,衡阳,包头,赣州,扬州
+        </p>
+        <br />
+        <p>
+          <span>配送至 ：</span> &nbsp;&nbsp; &nbsp;&nbsp;<span
+            style="color: orangered;"
+            >请选择</span
+          >
+        </p>
+        <br />
+        <br />
+        <p>
+          <span>说明 </span> &nbsp;&nbsp; &nbsp;&nbsp;<span
+            style="color: orangered;"
+            >父亲节暨618年中促销，特价8折</span
+          >
+        </p>
+      </div>
+
+      <div class="msg3">
+        <p class="market">市场价 : ￥376</p>
+
+        <p style="margin-top: 12px;">
+          花礼价： <span style="color: orangered;">￥232</span>
+        </p>
+
+        <p style="background-color: #eee; margin-bottom: 12px;">
+          <span style="font-size: 12px;">促销信息：</span
+          ><span style="color: orangered;">￥227</span
+          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <span style="font-size: 12px;"
+            ><i class="iconfont icon-ico"></i>去手机APP购买</span
+          >&nbsp;&nbsp;&nbsp;&nbsp;
+          <span style="font-size: 12px;"
+            ><i class="iconfont icon-ico"></i>去微信购买</span
+          >
+        </p>
+        <a class="cart" href="#">
+          加入购物车
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a
+          class="cart"
+          href="#"
+          style="color: white; background-color: orangered;"
+        >
+          立即购买
+        </a>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" style="font-size: 12px; color: black;">
+          <span
+            ><i style="color: peru;" class="iconfont icon-xinheart118"></i
+            >收藏</span
+          >
+        </a>
+      </div> -->
+    </div>
+    <!-- absolute -->
+    <!-- 客户服务 -->
+    <div class="kehufuwu">
+      <ul>
+        <li>在线付款</li>
+        <li>客服中心</li>
+        <li>配送范围</li>
+        <li>留言反馈</li>
+      </ul>
+    </div>
+
+    <div id="footer"></div>
+    <script src="../js/detail.js"></script>
+    <!-- 微信 -->
+    <div class="weixin">
+      <img src="../img/scan2.png" style="width: 124px; height: 124px;" alt="" />
+    </div>
+    <!-- APP -->
+    <div class="app">
+      <img src="../img/scan1.png" style="width: 124px; height: 124px;" alt="" />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+/* absolute */
+/* 客户服务 */
+.kehufuwu {
+  position: absolute;
+  display: none;
+  top: 120px;
+  left: 910px;
+  width: 90px;
+  height: 100px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  border: 1px solid #eee;
+  background-color: white;
+}
+/* 微信 */
+.weixin {
+  position: absolute;
+  top: 120px;
+  display: none;
+  left: 220px;
+  width: 140px;
+  height: 140px;
+}
+/* APP */
+.app {
+  position: absolute;
+  top: 120px;
+  display: none;
+  left: 330px;
+  width: 140px;
+  height: 140px;
+}
+/* 导航栏 */
+.navlist {
+  width: 900px;
+  height: 468px;
+  background-color: white;
+  border: 2px solid gray;
+  position: absolute;
+  top: 320px;
+  left: 310px;
+  z-index: 3;
+  display: none;
+}
+.navlist li {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: tomato;
+  margin: 10px;
+  float: left;
+}
+/* 右侧导航栏 */
+.user {
+  width: 287px;
+  height: 197px;
+  background-color: white;
+  border: 2px solid #eee;
+  position: fixed;
+  z-index: 3;
+  top: 110px;
+  left: 1020px;
+  display: none;
+}
