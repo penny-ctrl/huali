@@ -284,3 +284,49 @@ body {
   color: orangered;
   line-height: 42px;
 }
+/* .footer */
+.footer {
+  width: 100%;
+  height: 210px;
+  background-color: gray;
+  padding-top: 40px;
+  margin-top: 120px;
+}
+.footer li {
+  float: left;
+  margin-top: 4px;
+  margin-left: 50px;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 18px;
+  font-size: 16px;
+}
+.footer .p1 {
+  width: 1200px;
+  height: 40px;
+  font-size: 10px;
+  margin-top: 20px;
+  line-height: 40px;
+}
+.footer .p2 {
+  width: 1200px;
+  height: 40px;
+  font-size: 10px;
+}
+.footer .p3 {
+  width: 1200px;
+  height: 50px;
+}
+.footer .p3 img {
+  float: left;
+  margin-right: 16px;
+}
+.footer .p4 {
+  width: 1200px;
+  height: 40px;
+}
+.footer p {
+  margin-left: 70px;
+  margin-top: 6px;
+  color: white;
+}

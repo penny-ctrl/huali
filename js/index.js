@@ -43,12 +43,34 @@ $(".loadcart").hover(
     $(".haha").stop().slideUp();
   }
 );
+//----------------------
+var userID = JSON.parse(localStorage.getItem("logindata")).id;
+$.get(
+  "http://jx.xuzhixiang.top/ap/api/cart-list.php",
+  {
+    id: userID,
+  },
+  (data) => {
+    // console.log(data.data[2].pimg);
+
+    var str3 = "";
+    for (var i = 0; i < data.data.length; i++) {
+      str3 += `
+     <li>
+<img src="${data.data[i].pimg}" alt="">
+<p  class="haname" style="margin-top: 80px;">${data.data[i].pname}</p>
+<p class="haprice" style="color: chocolate;">￥${data.data[i].pprice}</p>
+      </li>
+    `;
+    }
+    $(".haha").html(str3);
+  }
+);
 //showlist
 function showlist(c, d) {
   c.hover(
     function () {
       $(d).show();
-      console.log(111);
     },
     function () {
       $(d).hide();

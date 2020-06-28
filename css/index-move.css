@@ -72,9 +72,20 @@
 .haha {
   width: 300px;
   height: 600px;
-  background-color: darkred;
+  background-color: white;
   position: fixed;
   top: 20px;
   left: 1000px;
   z-index: 4;
+  overflow-y: auto;
+}
+.haha li {
+  width: 250px;
+  height: 80px;
+  margin: 20px 20px;
+}
+.haha li img {
+  width: 80px;
+  height: 80px;
+  float: left;
 }
