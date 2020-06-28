@@ -42,6 +42,9 @@ showlist($(".nav .ul2 li").eq(3), ".kehufuwu");
 showlist($(".nav .ul1 li").eq(2), ".app");
 //...........................................................
 var userId = JSON.parse(localStorage.getItem("logindata")).id;
+var username = JSON.parse(localStorage.getItem("logindata")).username;
+
+$(".nav .ul2 .userhi a").html("Hi~" + username);
 $.get(
   "http://jx.xuzhixiang.top/ap/api/cart-list.php",
   {
@@ -78,7 +81,6 @@ $.get(
         (data) => {
           console.log(data);
           if (data.msg == "删除成功") {
-            alert("删除成功！");
             window.location.reload();
           }
         }

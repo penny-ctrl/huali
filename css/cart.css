@@ -31,7 +31,7 @@
   height: 140px;
 }
 .nav {
-  width: 100%;
+  width: 1340px;
   height: 40px;
   font-size: 12px;
   background-color: #f3f5f7;
@@ -60,7 +60,7 @@
 }
 /* search */
 .search {
-  width: 100%;
+  width: 1200px;
   height: 120px;
   display: flex;
   padding: 14px 30px 0 70px;

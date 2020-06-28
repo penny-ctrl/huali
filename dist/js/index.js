@@ -34,7 +34,15 @@ orange($("#cake #bj li"));
 gray($(".adress ul li"));
 gray($(".news .zixun .box ul a"));
 white($(".right .you li"));
-
+//-------------------右侧购物车----------------
+$(".loadcart").hover(
+  function () {
+    $(".haha").stop().slideDown();
+  },
+  function () {
+    $(".haha").stop().slideUp();
+  }
+);
 //showlist
 function showlist(c, d) {
   c.hover(
@@ -118,8 +126,8 @@ $(function () {
 });
 //-------------------------------------------------
 var username = JSON.parse(localStorage.getItem("logindata")).username;
-console.log(username);
-$(".nav .ul2 .userhi li").html(username);
+
+$(".nav .ul2 .userhi li").html("Hi~" + username);
 
 //====================
 

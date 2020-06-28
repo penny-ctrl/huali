@@ -165,6 +165,9 @@ $.get("http://jx.xuzhixiang.top/ap/api/detail.php", { id }, function (data) {
     }
   );
   var userId = JSON.parse(localStorage.getItem("logindata")).id;
+  var username = JSON.parse(localStorage.getItem("logindata")).username;
+
+  $(".nav .ul2 .userhi a").html("Hi~" + username);
   $(".cart").click(function () {
     $.get(
       "http://jx.xuzhixiang.top/ap/api/add-product.php",

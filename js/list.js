@@ -57,7 +57,9 @@ $(function () {
   );
 });
 //-----------------------------------------
+var username = JSON.parse(localStorage.getItem("logindata")).username;
 
+$(".nav .ul2 .userhi a").html("Hi~" + username);
 $.get(
   "http://jx.xuzhixiang.top/ap/api/productlist.php",
   {
@@ -79,9 +81,9 @@ $.get(
           />
         </div>
         <p id="name">
-          德国进口LAUENSTEIN巧克力手工松露酒味
+         ${data.data[i].pname}
         </p>
-        <p id="price" style="color: coral; font-size: 14px;">￥318</p>
+        <p id="price" style="color: coral; font-size: 14px;">￥${data.data[i].pprice}</p>
       </li>
   </a>
       `;
